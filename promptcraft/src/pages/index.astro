@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { PromptCraftApp } from '../components/PromptCraftApp';
+
+const title = 'PromptCraft - AI Prompt Generator';
+const description = 'Transform your ideas into powerful, optimized prompts for any LLM. PromptCraft uses AI to engineer production-ready prompts for GPT-4, Claude, Gemini, Llama, and more.';
+---
+
+<BaseLayout title={title} description={description}>
+  <PromptCraftApp client:load />
+</BaseLayout>
