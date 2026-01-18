@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://promptcraft.imajinx.co/sitemap-index.xml
